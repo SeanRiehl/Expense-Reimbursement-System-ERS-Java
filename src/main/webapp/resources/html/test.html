@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+
+<body>
+    <!-- Select makes a drop down menu -->
+    <select class="form-select" aria-label="Default select example">
+        <!-- Set the width of the drop down bar to something reasonable -->
+        <option value=1>Select Status To Show</option> <!-- Make the default value blank -->
+        <option value=1>All</option>
+        <option value=2>Approved</option>
+        <option value=3>Pending</option> <!-- Reorder this to all/pending/approved/denied -->
+        <option value=4>Denied</option>
+    </select>
+    <br><br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Reimbursement Type</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Details</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody class="body">
+
+        </tbody>
+    </table>
+
+    <script type="text/JavaScript" src="./test.js"></script>
+</body>
+
+</html>
+
+<!-- Figure out how to read in the data from the database in JS [See the example index.html] -->
+<!-- Then save that data into a reimbursements array -->
+<!-- After that, just need to clean up the code -->

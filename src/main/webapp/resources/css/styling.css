@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url("/Project1/resources/images/Crowbar_Background.png");
+	background-repeat: repeat;
+}
+
+#nav {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 20;
+}
+
+#login-form {
+	height: 100vh;
+}
+
+#container {
+	margin-top: 4.15em;
+}
+
+#form {
+	margin-bottom: 1em;
+}
+
+#form-holder {
+	padding: 1em 1em;
+	background-color:rgb(236,213,159);
+	border: 3px solid rgb(63, 35, 33);
+	border-radius: 10px;
+}
+
+#Description {
+	width: 100%;
+	margin: 8px 0 -2px 0;
+	box-sizing: border-box;
+}
+
+#author {
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+.button {
+	padding: 0.5em 0em;
+	height: 50px;
+	width: 100%;
+	color: black;
+	background-color:rgb(224, 134, 103);
+	font-size: 1em;
+	border: none;
+	border-radius: 10px;
+	margin-top: 0.75em;
+	cursor: pointer;
+	box-shadow: 0px 0px 15px rgba(224, 134, 103, 0.6);
+}
+
+.button:hover {
+	box-shadow: 0px 0px 15px rgba(224, 134, 103, 0.9);
+}
+
+#vid {
+	margin-left: -6.25em;
+}
+
+.pending {
+	color: #efb08c;
+}
+
+.approved {
+	color: #5aa469;
+}
+
+.denied {
+	color: #d35d6e;
+}
