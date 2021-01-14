@@ -18,8 +18,9 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 * Approving or denying reimbursements
 
 ## Getting Started
-(include git clone command)
-(include all environment setup steps)
+**Pulling from Git: git clone https://github.com/Madninja4/Reimbursement-System.git**
+
+**Deploying to Tomcat: http://localhost:PORT_NUMBER/ReimbursementSystem**
 
 ## Usage
 To log in as an employee, use the username "Employee" with the password "Employee". That will allow you to view submitted reimbursements and to create new ones. To log in as a financial manager, use the username "F_Manager" with the password "F_Manager". Logging in as a manager adds the abilities to view all reimbursments and to approve or deny pending requests. Other accounts can also be created in the database.
